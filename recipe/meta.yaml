@@ -1,6 +1,6 @@
 {% set name = "perl-io-tty" %}
-{% set version = "1.16" %}
-{% set sha256 = "8f1a09c070738adc695df903f2e7f74308dd8d991b914c0bc390a0e6021294dd" %}
+{% set version = "1.17" %}
+{% set sha256 = "a5f1a83020bc5b5dd6c1b570f48c7546e0a8f7fac10a068740b03925ad9e14e8" %}
 
 package:
   name: {{ name }}
@@ -40,7 +40,7 @@ about:
   home: https://metacpan.org/dist/IO-Tty
   license: GPL-1.0-or-later OR Artistic-1.0-Perl
   license_family: OTHER
-  summary: 'Pseudo ttys and constants'
+  summary: Pseudo ttys and constants
   license_file:
     - {{ environ["PREFIX"] }}/man/man1/perlartistic.1
     - {{ environ["PREFIX"] }}/man/man1/perlgpl.1
