@@ -203,6 +203,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@cbrueffer](https://github.com/cbrueffer/)
-* [@dslarm](https://github.com/dslarm/)
+* [@perl-packagers](https://github.com/perl-packagers/)
 
