@@ -203,5 +203,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@perl-packagers](https://github.com/perl-packagers/)
+* [@conda-forge/perl-packagers](https://github.com/orgs/conda-forge/teams/perl-packagers/)
 
