@@ -1,17 +1,17 @@
 {% set name = "perl-io-tty" %}
-{% set version = "1.20" %}
-{% set sha256 = "b15309fc85623893289cb9b2b88dfa9ed1e69156b75f29938553a45be6d730af" %}
+{% set version = "1.21" %}
+{% set sha256 = "9a5bdfa6819a95f2443aa62362a94ba05d28e594d9d512c7192a8d961848a8df" %}
 
 package:
   name: {{ name }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://cpan.metacpan.org/authors/id/T/TO/TODDR/IO-Tty-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 0
   # nothing provides perl >=5.32.1,<6.0a0 *_perl5 needed by perl-extutils-makemaker-7.36-pl5321hd8ed1ab_0
   skip: true  # [win]
   script:
