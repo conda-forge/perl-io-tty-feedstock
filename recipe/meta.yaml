@@ -1,6 +1,6 @@
 {% set name = "perl-io-tty" %}
-{% set version = "1.23" %}
-{% set sha256 = "04ddc9defeb8040bfc87c6de77959db99b8257943060aaaa4445b45c846744dd" %}
+{% set version = "1.27" %}
+{% set sha256 = "83459d10a2768df598b58e2ae5946e6c259456cb4eccf85f8652d0c7d8991f2c" %}
 
 package:
   name: {{ name }}
